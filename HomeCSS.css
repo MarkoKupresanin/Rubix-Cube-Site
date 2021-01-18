@@ -15,7 +15,7 @@ h2 {
 
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #ffffff00;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -26,11 +26,15 @@ h2 {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateX(170%);
+  transform: translateX(170%);
 }
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
